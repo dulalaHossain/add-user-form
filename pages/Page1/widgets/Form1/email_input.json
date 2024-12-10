@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "EMAIL",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "rmqo0o3tgt",
+  "label": "Email",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "originalBottomRow": 29,
+  "originalTopRow": 22,
+  "parentColumnSpace": 20.171875,
+  "parentId": "fh1tak53vj",
+  "parentRowSpace": 10,
+  "placeholderText": "johnDoe@example.com",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "shouldAllowAutofill": true,
+  "showStepArrows": false,
+  "topRow": 20,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "lq9u6wal0b",
+  "widgetName": "email_input"
+}

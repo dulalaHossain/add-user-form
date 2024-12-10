@@ -1,0 +1,56 @@
+INSERT INTO "users" (
+    "username",
+    "name",
+    "email",
+    "bio",
+    "timeZone",
+    "weekStart",
+    "startTime",
+    "endTime",
+    "created",
+    "bufferTime",
+    "hideBranding",
+    "completedOnboarding",
+    "twoFactorEnabled",
+    "locale",
+    "identityProvider",
+    "verified",
+    "timeFormat",
+    "allowDynamicBooking",
+    "role",
+    "disableImpersonation",
+    "allowSEOIndexing",
+    "receiveMonthlyDigestEmail",
+    "locked",
+    "isPlatformManaged",
+    "smsLockState",
+    "smsLockReviewedByAdmin"
+)
+VALUES (
+    '{{username_input.text}}',                        -- username
+    '{{name_input.text}}',                            -- name
+    '{{email_input.text}}',                           -- email
+    '{{bio_input.text}}',                             -- bio
+    'Europe/London',                                  -- timeZone
+    '{{start_of_week_select.selectedOptionValue}}',   -- weekStart
+    0,                                                -- startTime
+    1440,                                             -- endTime
+    '{{moment().format("YYYY-MM-DD HH:mm:ss")}}',     -- created (timestamp)
+    0,                                                -- bufferTime
+    false,                                            -- hideBranding
+    false,                                            -- completedOnboarding
+    false,                                            -- twoFactorEnabled
+    'en',                                             -- locale
+    '{{identity_provider_select.selectedOptionValue}}', -- identityProvider
+    false,                                            -- verified
+    '{{time_fromat_select.selectedOptionValue}}',     -- timeFormat
+    true,                                             -- allowDynamicBooking
+    '{{role_select.selectedOptionValue}}',            -- role
+    false,                                            -- disableImpersonation
+    true,                                             -- allowSEOIndexing
+    true,                                             -- receiveMonthlyDigestEmail
+    false,                                            -- locked
+    false,                                            -- isPlatformManaged
+    'UNLOCKED',                                       -- smsLockState
+    false                                             -- smsLockReviewedByAdmin
+);

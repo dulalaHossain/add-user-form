@@ -1,0 +1,65 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 67,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "rp8wgfz971",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Start of week",
+  "labelTextColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 61,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 54,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 69,
+  "originalTopRow": 62,
+  "parentColumnSpace": 11.349365234375,
+  "parentId": "fh1tak53vj",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n    { \"value\": \"Sunday\", \"label\": \"Sunday\"},\n    { \"value\": \"Monday\", \"label\": \"Monday\"},\n    { \"value\": \"Tuesday\", \"label\": \"Tuesday\"},\n    { \"value\": \"Wednesday\", \"label\": \"Wednesday\" },\n    { \"value\": \"Thursday\", \"label\": \"Thursday\" },\n    { \"value\": \"Friday\", \"label\": \"Friday\" },\n    { \"value\": \"Saturday\", \"label\": \"Saturday\" }\n  ]",
+  "topRow": 60,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "r5irre3fx7",
+  "widgetName": "start_of_week_select"
+}

@@ -1,0 +1,65 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "rp8wgfz971",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Time Format",
+  "labelTextColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 53,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 46,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 60,
+  "originalTopRow": 53,
+  "parentColumnSpace": 11.349365234375,
+  "parentId": "fh1tak53vj",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": " [\n    { \"value\": 12, \"label\": \"12 hour\" },\n    { \"value\": 24, \"label\": \"24 hour\" }\n  ]\n",
+  "topRow": 51,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "thm8t3swjy",
+  "widgetName": "time_fromat_select"
+}

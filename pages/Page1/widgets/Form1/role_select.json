@@ -1,0 +1,71 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "defaultOptionValue": "USER",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ezssovvs2r",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Role",
+  "labelTextColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 44,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 37,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 45,
+  "originalTopRow": 38,
+  "parentColumnSpace": 20.171875,
+  "parentId": "fh1tak53vj",
+  "parentRowSpace": 10,
+  "placeholderText": "Select Role",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"value\": \"USER\",\n    \"label\": \"User\"\n  },\n  {\n    \"value\": \"ADMIN\",\n    \"label\": \"Admin\"\n  }\n]",
+  "topRow": 36,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "4tibi4hfbd",
+  "widgetName": "role_select"
+}

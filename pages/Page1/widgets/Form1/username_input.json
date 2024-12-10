@@ -1,0 +1,68 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "validation"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorMessage": "Please fill this field",
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": "true",
+  "isVisible": true,
+  "key": "rmqo0o3tgt",
+  "label": "Username",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextColor": "#f4f4f5",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 22,
+  "originalTopRow": 15,
+  "parentColumnSpace": 20.171875,
+  "parentId": "fh1tak53vj",
+  "parentRowSpace": 10,
+  "placeholderText": "John Doe",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "showStepArrows": false,
+  "topRow": 13,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{Form1.data.username.length>0}}",
+  "version": 2,
+  "widgetId": "0cn2if6br0",
+  "widgetName": "username_input"
+}
